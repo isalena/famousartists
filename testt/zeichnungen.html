@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LB02 - Isalena Sutter & Moira Lenz</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Titan+One');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  </style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+
+<body>
+  <header>
+
+    <nav>
+      <ul class="main-nav">
+        <li><a href="./index.html"> Home </a></li>
+        <li><a href="./index.html"><img class="logo" src="./bilder/i_sutter_logo.svg" alt="logo"></a></li>
+        <li><a href="./zeichnungen.html"> Drawings </a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" width="100%">>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="image" src="./bilder/bild1.jpg" class="d-block w-100" alt="..." width="100%">>
+        </div>
+        <div class="carousel-item">
+          <img class="image" src="./bilder/bild2.jpg" class="d-block w-100" alt="..." width="100%">>
+        </div>
+        <div class="carousel-item">
+          <img class="image" src="./bilder/bild3.jpg" class="d-block w-100" alt="..." width="100%">>
+        </div>
+        <div class="carousel-item">
+          <img class="image" src="./bilder/bild4.jpg" class="d-block w-100" alt="..." width="100%">>
+        </div>
+        <div class="carousel-item">
+          <img class="image" src="./bilder/bild5.jpg" class="d-block w-100" alt="..." width="100%">>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h2>Drawing is my passion because...</h2>
+    <p>I can dive in my own world and form it the way I want. There are no rules, no boundaries. I can just let my
+      creativity play. Whatever I think of, I can draw. Also I am alone and it is so silent, I can just hear my pencil
+      scratch over the thick paper. There is nothing holding me to the reality and I can just turn my mind off.</p>
+
+    <div class="video">
+      <h2 class="h2">One of my Inspirations
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ds2_pdD55mY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </h2>
+    </div>
+
+    <h2>Color picker</h2>
+    <div class="color_picker">
+      <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#9eaa1d"
+        title="Choose your color">
+    </div>
+
+    <!-- JavaScript start -->
+    <!-- JavaScript start -->
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2>Famous Artists</h2>
+          <p class="lead">My Idols</p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 3rem"></div>
+      <!-- Output Artist and Family -->
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">Artist</div>
+            <ul class="list-group list-group-flush">
+              <li id="artist" class="list-group-item">?</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">Family</div>
+            <ul class="list-group list-group-flush">
+              <li id="family" class="list-group-item">?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="margin-bottom: 1.5rem"></div>
+
+      <!-- Output works -->
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <div id="famousworksTitle" class="card-header">Famous Works</div>
+            <ul class="list-group list-group-flush">
+              <li id="famousworks" class="list-group-item"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">Museum</div>
+            <ul class="list-group list-group-flush">
+              <li id="museum" class="list-group-item">?</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 2rem"></div>
+        <!-- Pagination -->
+        <div class="col-sm"></div>
+        <nav class="arrows" aria-label="Page navigation example">
+          <ul id="pagination" class="pagination">
+            <li class="page-item">
+              <a class="page-link" onclick="showPrevious()" href="#/">&#10229;</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" onclick="showNext()" href="#/">&#10230;</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+
+    </div>
+
+
+
+    <script src="script/data.js"></script>
+    <script src="script/app.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <!-- JavaScript finish -->
+    <!-- JavaScript finish -->
+
+  </main>
+
+</body>
+<footer>
+  <h2>If you want to contact me...</h2>
+  <form>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="lead">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="lead">Write your Text below</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</footer>
+<h6>Gestaltung & Idee <div id="namen"></div> , Künstlerin <a href="https://www.instagram.com/hobbycorner_1/?hl=de"
+    target="_blank">Isalena Sutter</a></h4>
+
+</html>

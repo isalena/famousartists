@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titan One', cursive;
+    background-color: black;
+}
+
+a {
+    font-family: 'Roboto',sans-serif;
+    color: #e1e7e5 !important;
+}
+
+.logo {
+    width: 50%;
+    transform: scale(1.0);
+    transition: ease 0.7s;
+    }
+
+    nav ul li {
+        color: #9eaa1d !important;
+    }
+
+    .logo img:hover {
+        transform: scale(1.1);
+        transition: ease 0.7s;
+    }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+nav .main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav .main-nav a {
+    font-family: 'Roboto',sans-serif;
+    font-size: 2em;
+    color: #9eaa1d;
+    text-decoration: none;
+    display: block;
+    padding: 35px 20px 10px 20px;
+    transition: 0.7s ease;
+}
+
+nav .main-nav a:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.main-nav {
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+.main-nav a {
+    display: block;
+}
+
+.hintergrundbild {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 1em !important;
+    padding-bottom: 400px;
+    background-color: transparent;
+}
+
+h6 {
+    font-family: 'Roboto',sans-serif;
+    color: #9eaa1d;
+    padding: 15px;
+    font-size: small !important;
+    width: 100%;
+    margin: 0 auto 0 auto !important;
+}
+
+.hintergrundbild_title_index {
+    background-image: url("../bilder/hintergrund.jpg");
+    width: 100%;
+    padding-top: 400px;
+    text-align: center;
+    color: #9eaa1d;
+    font-size: 8em;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-label {
+    color: #9eaa1d;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.color_picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.mb-3 {
+    padding-top: 50px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #9eaa1d !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto',
+    sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 150px 400px 150px 400px;
+}
+
+.h2 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 40% !important;
+    padding-bottom: 100px;
+
+}
+
+iframe {
+    width: 100% !important;
+    padding-top: 50px;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-label1 {
+    font-size: 1.9em;
+    padding-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: #9eaa1d !important;
+    border-color: #9eaa1d !important;
+}
+
+.btn {
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+
+input #exampleInputEmail1 .form-control {
+    padding: 0px 100px 0px 100px;
+}
+
+.lead {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.col-sm {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+}
+
+.page-link {
+    color: #9eaa1d !important;
+    font-size: 2em;
+}
+
+.jumbotron {
+    background-color: black !important;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1 !important;
+    padding-top: 50px;
+}
+
+.pagination {
+    z-index: 1 !important;
+}
+
+body {
+    background-color: black !important;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+.mb-3 {
+    padding-top: 0px;
+}
+
+#artist {
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+#family {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+#famousworks {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+#museum {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.card-header {
+    color: #9eaa1d !important;
+}
+
+h6 {
+    color: #9eaa1d !important;
+     font-family: 'Roboto',
+     sans-serif !important;
+}
+
+form {
+    padding-bottom: 100px;
+}
+
+.card {
+    height: 225px !important;
+}
+
+.arrows {
+    z-index: 1;
+}
+
+footer {
+    max-width: 680px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px 0 15px;
+}
